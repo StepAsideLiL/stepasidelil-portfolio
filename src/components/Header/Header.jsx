@@ -2,7 +2,7 @@ const Header = () => {
   return (
     <div className="navbar bg-base-100">
       <div className="navbar-start">
-        <a className="btn-ghost btn text-xl normal-case">daisyUI</a>
+        <a className="btn-ghost btn text-xl normal-case">Rifat Khan</a>
       </div>
 
       <div className="navbar-end">

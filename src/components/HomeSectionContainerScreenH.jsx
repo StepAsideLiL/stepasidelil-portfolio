@@ -2,7 +2,10 @@ import PropTypes from "prop-types";
 
 const HomeSectionContainerScreenH = ({ children }) => {
   return (
-    <div className="flex h-screen items-center justify-center">
+    <div
+      className="flex items-center justify-center"
+      style={{ height: "calc(100vh - 64px)" }}
+    >
       <div>{children}</div>
     </div>
   );

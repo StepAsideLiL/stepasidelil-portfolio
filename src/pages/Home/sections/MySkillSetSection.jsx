@@ -1,15 +1,15 @@
 import PropTypes from "prop-types";
-import SectionHead from "../../components/SectionHead";
-import skillSets from "../../components/Skill/SkillSets";
+import SectionHead from "../../../components/SectionHead";
+import SkillSetsDB from "../../../dbs/Skill/SkillSetsDB";
 
 const MySkillSetSection = () => {
   return (
     <div className="my-40">
       <SectionHead>My Skill Sets</SectionHead>
 
-      <div className="my-5 grid grid-cols-5 gap-5">
-        {skillSets.map((skill) => (
-          <SkillCard key={skill.id} skill={skill} />
+      <div className="my-5 grid grid-cols-2 gap-5 md:grid-cols-5">
+        {SkillSetsDB.map((skill, index) => (
+          <SkillCard key={index} skill={skill} />
         ))}
       </div>
     </div>

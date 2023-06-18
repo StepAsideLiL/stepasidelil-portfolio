@@ -1,4 +1,4 @@
-import SectionHead from "../../components/SectionHead";
+import SectionHead from "../../../components/SectionHead";
 
 const AboutMeSection = () => {
   return (

@@ -1,7 +1,10 @@
 import useDynamicTitle from "../../hooks/useDynamicTitle";
-import AboutMeSection from "./AboutMeSection";
-import BannerSection from "./BannerSection";
-import MySkillSetSection from "./MySkillSetSection";
+import AboutMeSection from "./sections/AboutMeSection";
+import BannerSection from "./sections/BannerSection";
+import MySkillSetSection from "./sections/MySkillSetSection";
+import MyProjectsSection from "./sections/MyProjectsSection";
+import MyFeaturedProjectSection from "./sections/MyFeaturedProjectSection";
+import MySocialLinks from "./sections/MySocialLinks";
 
 const Home = () => {
   useDynamicTitle("Portfolio - Home");
@@ -15,6 +18,12 @@ const Home = () => {
           <AboutMeSection />
 
           <MySkillSetSection />
+
+          <MyProjectsSection />
+
+          <MyFeaturedProjectSection />
+
+          <MySocialLinks />
         </div>
       </div>
     </div>
